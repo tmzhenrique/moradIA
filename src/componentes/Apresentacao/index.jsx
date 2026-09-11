@@ -23,12 +23,16 @@ const TextosApresentacao = styled.div`
 
 const TituloApresentacao = styled.h2`
     margin: 0;
+    font-stretch: 100%;
+    line-height: 110.00000000000001%;
+    style: extra-bold;
     font-family: var(--fonte-moradia);
     font-weight: 800;
     font-size: 56px;
 `
 const DescricaoApresentacao = styled.p`
     font-family: var(--fonte-moradia);
+    text-align: left;
     font-weight: 400;
     font-size: 18px;
     color: #6B7280;
