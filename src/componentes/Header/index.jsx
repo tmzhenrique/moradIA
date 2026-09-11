@@ -8,6 +8,7 @@ const HeaderLP = styled.header`
   padding: 0 100px;
   height: 80px;
   background-color: #FFF;
+  border-bottom: solid 1px #E5E7EB; 
 `
 
 const MoradIA = styled.div`
@@ -19,6 +20,7 @@ const MoradIA = styled.div`
 
 const TextoMoradIA = styled.h2`
     font-weight: 700;
+    font-family: var(--fonte-moradia);
     color:black;
 `
 const LogoMoradIA = styled.img`
@@ -39,7 +41,7 @@ const DivLinksHeader = styled.div`
     gap: 22px;
 `
 
-const BotoesNav = styled.a`
+const AncoraNav = styled.a`
     text-decoration: none;
     font-family: "Inter", sans-serif;
     font-weight: 500;
@@ -53,8 +55,9 @@ const BotoesNav = styled.a`
         background-color: rgba(238, 242, 255,0.7); 
     }
 `
-const BotaoNavDestaque = styled(BotoesNav)`
+const AncoraNavDestaque = styled(AncoraNav)`
     color: #FFF;
+    font-family: var(--fonte-moradia);
     font-size: 13px;
     font-weight: 600;
     border-radius: 8px;
@@ -76,10 +79,10 @@ function Header(){
                 <TextoMoradIA>Morad<EstiloStrong>IA</EstiloStrong></TextoMoradIA>
             </MoradIA>  
             <DivLinksHeader>
-                <BotoesNav href='https://github.com/tmzhenrique' target='blank'>Como funciona</BotoesNav> 
-                <BotoesNav>Indicadores</BotoesNav>
-                <BotoesNav>Preços</BotoesNav>
-                <BotaoNavDestaque>Encontrar minha cidade</BotaoNavDestaque>
+                <AncoraNav href='https://github.com/tmzhenrique' target='blank'>Como funciona</AncoraNav> 
+                <AncoraNav>Indicadores</AncoraNav>
+                <AncoraNav>Preços</AncoraNav>
+                <AncoraNavDestaque>Encontrar minha cidade</AncoraNavDestaque>
             </DivLinksHeader>
                    
         </HeaderLP>
